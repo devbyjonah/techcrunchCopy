@@ -58,8 +58,20 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  color: black;
+}
+
 a:visited {
   color: gray;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+a:active {
+  color: whitesmoke;
 }
 
 p {
