@@ -58,22 +58,6 @@ a {
   text-decoration: none;
 }
 
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: gray;
-}
-
-a:hover {
-  color: darkgrey;
-}
-
-a:active {
-  color: whitesmoke;
-}
-
 p {
   color: gray;
   font-weight: 100;
@@ -102,10 +86,6 @@ nav {
 nav li {
   height: 50px;
   margin: 10px;
-}
-
-#logoImage {
-  
 }
 
 #featuredArticle, #latestArticle {
@@ -148,3 +128,19 @@ nav li {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+a:active {
+  color: whitesmoke;
+}
