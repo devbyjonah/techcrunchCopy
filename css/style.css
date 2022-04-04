@@ -1,0 +1,138 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1, h2{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+nav {
+  font-weight: 100;
+  font-size: 1.25rem;
+}
+
+span {
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+}
+
+p {
+  color: gray;
+  font-weight: 100;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+h4 {
+  clear: both;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+section, article {
+  float: left;
+}
+
+nav {
+  position: fixed;
+  width: 15%;
+  height: 100%;
+}
+
+nav li {
+  height: 50px;
+  margin: 10px;
+}
+
+#logoImage {
+  
+}
+
+#featuredArticle, #latestArticle {
+  margin-left: 15%;
+  width: 50%;
+}
+
+#articleList {
+  width: 35%;
+}
+
+#articleList li {
+  border-top: solid lightgray 1px;
+}
+
+#latestArticle {
+  clear: both;
+  width: 85%;
+  border-top: solid lightgrey 1px;
+}
+
+#featuredAuthor {
+  display: block;
+}
+
+#featuredImage {
+  width: 100%;
+  height: 100%;
+}
+
+#latestArticle section {
+  width: 25%;
+  margin: 10px;
+}
+
+#introduction p {
+  margin-top: 50px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
